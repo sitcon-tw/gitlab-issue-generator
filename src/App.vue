@@ -256,7 +256,7 @@ export default {
         if (this.options.autoAssign && assignUsers.length) {
           description = `/assign @${assignUsers.join(' @')}\n` + description
         }
-        description = `/label "${event.inboxLabel}" "${event.groupLabelPrefix}${group}"\n` + description
+        description = `/label "${event.inboxLabel}" "${event.groupLabelPrefix}${group}${event.groupLabelPostfix}"\n` + description
 
         let link = new URL(`https://gitlab.com/${event.repo}/-/issues/new`)
         link.searchParams.append('issue[title]', title)
