@@ -1,5 +1,5 @@
 {
-  "name": "hitcon-2023-issue-generator",
+  "name": "issue-generator",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
