@@ -1,13 +1,13 @@
 
 <template>
-  <div>
+  <div id="wrapper">
     <header>
       <div class="container">
-        <div class="title">{{ selectedEvent }} Issue 小精靈</div>
+        <div class="title">{{ selectedEvent||'' }} Issue 小精靈</div>
         <p>幫你開 Issue 的小精靈</p>
       </div>
     </header>
-    <div class="container">
+    <main class="container" v-if="selectedEvent">
       <div class="box">
         <div class="title">小提醒</div>
         <p>在 Title 或 Description 輸入 #{group} 會自動帶入組別名稱。</p>
@@ -41,7 +41,21 @@
           v-text="link.title"
         />
       </div>
-    </div>
+    </main>
+    <main class="container" v-else>
+      <div class="box">
+        <div class="title">尚未選擇活動</div>
+        <p>請先選擇活動。</p>
+      </div>
+      <div class="links">
+        <a
+          v-for="event in events"
+          :href="`?event=${event.title}`"
+          :key="event.title"
+          v-text="event.title"
+        />
+      </div>
+    </main>
     <footer>
       Developed by
       <a href="https://gnehs.net" target="_blank">勝勝寶寶</a> | Made with
@@ -66,6 +80,12 @@ a
   color: rgb(var(--theme-color))
   &:hover
     opacity: 0.8
+#wrapper
+  display: flex
+  flex-direction: column
+  min-height: 100svh
+  &>main
+    flex: 1
 
 header
   padding: 64px 0
@@ -186,7 +206,7 @@ export default {
     return {
       title: '[#{group}] 填寫蓬蓬鬆餅預約表單',
       description: '請#{group}組協助填寫蓬蓬鬆餅預約表單。\n\n[傳送門](https://pancake.tw/)',
-      selectedEvent: 'SITCON Camp 2023',
+      selectedEvent: null,
       events,
       options: {
         autoAssign: true,
@@ -222,7 +242,7 @@ export default {
   mounted() {
     this.randomThemeColor()
     // get from query string
-    this.selectedEvent = new URLSearchParams(window.location.search).get('event') || this.selectedEvent
+    this.selectedEvent = new URLSearchParams(window.location.search).get('event') || null
     this.updateLinks()
   },
   methods: {
