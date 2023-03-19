@@ -3,7 +3,7 @@
   <div>
     <header>
       <div class="container">
-        <div class="title">{{ selectedOrg }} Issue 小精靈</div>
+        <div class="title">{{ selectedEvent }} Issue 小精靈</div>
         <p>幫你開 Issue 的小精靈</p>
       </div>
     </header>
@@ -189,8 +189,8 @@ export default {
     return {
       title: '[#{group}] 填寫蓬蓬鬆餅預約表單',
       description: '請#{group}組協助填寫蓬蓬鬆餅預約表單。\n\n[傳送門](https://pancake.tw/)',
-      selectedOrg: 'SITCON Camp 2023',
-      org: [
+      selectedEvent: 'SITCON Camp 2023',
+      events: [
         {
           title: "HITCON 2023",
           repo: "HacksInTaiwan/2023/board",
@@ -265,26 +265,25 @@ export default {
     }
   },
   mounted() {
-    this.updateLinks()
     this.randomThemeColor()
     // get from query string
-    this.selectedOrg = new URLSearchParams(window.location.search).get('org') || this.selectedOrg
+    this.selectedEvent = new URLSearchParams(window.location.search).get('event') || this.selectedEvent
     this.updateLinks()
   },
   methods: {
     updateLinks() {
       this.links = []
-      let org = this.org.find(org => org.title === this.selectedOrg)
-      for (let [group, assignUsers] of Object.entries(org.groupList)) {
+      let event = this.events.find(event => event.title === this.selectedEvent)
+      for (let [group, assignUsers] of Object.entries(event.groupList)) {
         let title = this.title.replaceAll('#{group}', group)
         let description = this.description.replaceAll('#{group}', group)
 
         if (this.options.autoAssign && assignUsers.length) {
           description = `/assign @${assignUsers.join(' @')}\n` + description
         }
-        description = `/label "${org.inboxLabel}" "${org.groupLabelPrefix}${group}"\n` + description
+        description = `/label "${event.inboxLabel}" "${event.groupLabelPrefix}${group}"\n` + description
 
-        let link = new URL(`https://gitlab.com/${org.repo}/-/issues/new`)
+        let link = new URL(`https://gitlab.com/${event.repo}/-/issues/new`)
         link.searchParams.append('issue[title]', title)
         link.searchParams.append('issue[description]', description)
         this.links.push({ title: group, href: link.href })
