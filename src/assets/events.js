@@ -1,0 +1,43 @@
+export default [
+  {
+    title: "HITCON 2023",
+    repo: "HacksInTaiwan/2023/board",
+    inboxLabel: `Status::Inbox`,
+    groupLabelPrefix: `Team::`,
+    groupList: {
+      '總召': ['denny0223'],
+      'RB': ['bletchley13'],
+      '公關': ['ws23'],
+      '宣傳': ['hazelOxO'],
+      '行政': ['leaftseng'],
+      '議程': ['mag1karp'],
+      '形象': ['tony780808'],
+      '系統開發': ['gnehs'],
+      '攝影': ['jerryhsu066'],
+      '翻譯': ['RSChiang'],
+      '場務': ['an22003937'],
+      '活動': ['rwq987654321000'],
+      '財務': ['KuroseAto'],
+      '資訊設施': ['Sciuridae'],
+    },
+  },
+  {
+    title: "SITCON Camp 2023",
+    repo: "sitcon-tw/camp-2023/sitcon-camp-2023-board",
+    inboxLabel: `Status::Inbox`,
+    groupLabelPrefix: `組別::`,
+    groupList: {
+      '總召組': ['arnoldsky'],
+      '行政組': ['candice02110211'],
+      '財務組': ['YukinaMochizuki'],
+      '課活組': ['GreenLeaf0w0'],
+      '庶務組': ['rebeeca0922'],
+      '隊輔組': ['justinlin099'],
+      '編輯組': ['skyhong2002'],
+      '行銷組': ['y920531'],
+      '資訊組': ['gnehs'],
+      '設計組': [],
+      '攝影組': [],
+    },
+  }
+]
