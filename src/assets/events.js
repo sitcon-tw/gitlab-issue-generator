@@ -39,5 +39,24 @@ export default [
       '設計組': [],
       '攝影組': [],
     },
-  }
+  },
+  {
+    title: "SITCON 2022",
+    repo: "sitcon-tw/2022/2022-board",
+    inboxLabel: `Status::Inbox`,
+    groupLabelPrefix: `組別::`,
+    groupList: {
+      '議程': ['index.asp'],
+      '總召': ['YukinaMochizuki'],
+      '編輯': ['fanlan1210'],
+      '製播': ['camel0311'],
+      '開發': ['gnehs'],
+      '設計': ['yuyoyuyo850'],
+      '財務': ['an22003937'],
+      '紀錄': ['littlechin'],
+      '行政': ['april1026'],
+      '行銷': ['y920531'],
+      '場務': ['rebeeca0922'],
+    },
+  },
 ]
