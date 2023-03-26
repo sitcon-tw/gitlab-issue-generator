@@ -29,6 +29,24 @@
           <input type="checkbox" v-model="options.autoAssign" @change="updateLinks" id="autoAssign" />
           <label for="autoAssign">自動 Assign 組長</label>
         </div>
+        <div class="option">
+          <input
+            type="checkbox"
+            v-model="options.enableRelatedIssue"
+            @change="updateLinks"
+            id="enableRelatedIssue"
+          />
+          <label for="enableRelatedIssue">關聯相關 Issue</label>
+        </div>
+      </div>
+      <div v-if="options.enableRelatedIssue">
+        <input
+          v-model="relatedIssue"
+          @input="updateLinks"
+          type="number"
+          style="max-width: 256px;margin-left: 21px;"
+          placeholder="issue id"
+        />
       </div>
       <button @click="createIssue" class="magic-button">🪄 來點魔法！</button>
       <p class="text-center">若魔法施展失敗，請檢查瀏覽器是否封鎖了快顯視窗，或直接點擊下方連結。</p>
@@ -206,10 +224,12 @@ export default {
     return {
       title: '[#{group}] 填寫蓬蓬鬆餅預約表單',
       description: '請#{group}組協助填寫蓬蓬鬆餅預約表單。\n\n[傳送門](https://pancake.tw/)',
+      relatedIssue: null,
       selectedEvent: null,
       events,
       options: {
         autoAssign: true,
+        enableRelatedIssue: false,
       },
       links: [],
       toolbar: {
@@ -261,6 +281,9 @@ export default {
         let link = new URL(`https://gitlab.com/${event.repo}/-/issues/new`)
         link.searchParams.append('issue[title]', title)
         link.searchParams.append('issue[description]', description)
+        if (this.options.enableRelatedIssue) {
+          link.searchParams.append('add_related_issue', this.relatedIssue)
+        }
         this.links.push({ title: group, href: link.href })
       }
     },
