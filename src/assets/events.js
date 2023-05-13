@@ -38,7 +38,6 @@ export default [
       '編輯': ['skyhong2002'],
       '行銷': ['y920531'],
       '資訊': ['gnehs'],
-      '設計': [],
       '紀錄': ['William-Mou'],
     },
   },
