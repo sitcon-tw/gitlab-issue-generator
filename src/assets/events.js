@@ -8,7 +8,7 @@ export default [
     groupList: {
       '總召': ['denny0223'],
       'RB': ['bletchley13'],
-      '公關': ['ws23'],
+      '公關': ['freetsubasa'],
       '宣傳': ['hazelOxO'],
       '行政': ['leaftseng'],
       '議程': ['mag1karp'],
