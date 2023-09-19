@@ -7,7 +7,7 @@ export default [
     groupLabelPostfix: `組`,
     groupList: {
       '總召': ['Jadar'],
-      '議程': [''],
+      '議程': ['whichseven77'],
       '編輯': ['skyhong2002'],
       '製播': ['junter0323'],
       '開發': ['gnehs'],
