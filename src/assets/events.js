@@ -1,5 +1,25 @@
 export default [
   {
+    title: "SITCON 2024",
+    repo: "sitcon-tw/2024/board",
+    inboxLabel: `Status::Inbox`,
+    groupLabelPrefix: `組別::`,
+    groupLabelPostfix: `組`,
+    groupList: {
+      '總召': ['Jadar'],
+      '議程': ['whichseven77'],
+      '編輯': ['skyhong2002'],
+      '製播': ['junter0323'],
+      '開發': ['gnehs'],
+      '設計': ['Jung__'],
+      '財務': ['Kora0421'],
+      '紀錄': ['mmh.nuss'],
+      '行政': ['candice02110211'],
+      '行銷': ['arnoldsky'],
+      '場務': ['whichseven77'],
+    },
+  },
+  {
     title: "SITCON Hackathon 2024",
     repo: "sitcon-tw/hackathon/sitcon-hackathon-2024",
     inboxLabel: `Status::Inbox`,
