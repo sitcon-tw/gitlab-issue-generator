@@ -37,4 +37,23 @@ export default [
       '財務': ['leaftseng'],
     },
   },
+  {
+    title: "SITCON Camp 2024",
+    repo: "sitcon-tw/camp-2024/board",
+    inboxLabel: `Status::Inbox`,
+    groupLabelPrefix: `組別::`,
+    groupLabelPostfix: `組`,
+    groupList: {
+      '總召': ['kangjwme'],
+      '設計': ['kangjwme'],
+      '行政': ['whichseven77'],
+      '資訊': [''],
+      '紀錄': ['mmh.nuss'],
+      '場務': ['pumpkin31096'],
+      '隊輔': ['whichseven77'],
+      '課活': ['index.asp'],
+      '財務': [''],
+      '編輯': ['hyslchs'],
+    },
+  },
 ]
