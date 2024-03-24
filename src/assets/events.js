@@ -27,7 +27,7 @@ export default [
     groupLabelPostfix: `組`,
     groupList: {
       '總召': ['GreenLeaf0w0'],
-      '行銷': ['YukinaMochizuki'],
+      '行銷': ['GreenLeaf0w0'],
       '設計': ['Jung__'],
       '行政': ['Peggyowo'],
       '資訊': ['rk42745417'],
@@ -35,6 +35,7 @@ export default [
       '場務': ['kangjwme'],
       '活動': ['jasonjasonyehyeh'],
       '財務': ['leaftseng'],
+      '編輯': ['amandahsieh.926188'],
     },
   },
   {
