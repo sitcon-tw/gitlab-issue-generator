@@ -50,7 +50,7 @@ export default [
       '行政': ['whichseven77'],
       '資訊': [''],
       '紀錄': ['mmh.nuss'],
-      '場務': ['pumpkin31096'],
+      '庶務': ['pumpkin31096'],
       '隊輔': ['whichseven77'],
       '課活': ['index.asp'],
       '財務': ['a0931127346'],
