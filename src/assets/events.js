@@ -53,7 +53,7 @@ export default [
       '場務': ['pumpkin31096'],
       '隊輔': ['whichseven77'],
       '課活': ['index.asp'],
-      '財務': [''],
+      '財務': ['a0931127346'],
       '編輯': ['hyslchs'],
     },
   },
