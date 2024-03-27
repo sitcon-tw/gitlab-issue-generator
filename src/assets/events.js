@@ -48,7 +48,7 @@ export default [
       '總召': ['kangjwme'],
       '設計': ['kangjwme'],
       '行政': ['whichseven77'],
-      '資訊': [''],
+      '資訊': ['lazpbanahaker'],
       '紀錄': ['mmh.nuss'],
       '庶務': ['pumpkin31096'],
       '隊輔': ['whichseven77'],
