@@ -57,4 +57,24 @@ export default [
       '編輯': ['hyslchs'],
     },
   },
+  {
+    title: "SITCON 2025",
+    repo: "sitcon-tw/2025/board",
+    inboxLabel: `Status::Inbox`,
+    groupLabelPrefix: `組別::`,
+    groupLabelPostfix: `組`,
+    groupList: {
+      '總召': ['qiqii77'],
+      '議程': [''],
+      '編輯': [''],
+      '製播': [''],
+      '開發': [''],
+      '設計': [''],
+      '財務': [''],
+      '紀錄': [''],
+      '行政': [''],
+      '行銷': [''],
+      '場務': [''],
+    },
+  }
 ]
