@@ -3,7 +3,7 @@ export default [
     title: "SITCON 2025",
     repo: "sitcon-tw/2025/board",
     inboxLabel: `Status::Inbox`,
-    groupLabelPrefix: `組別::`,
+    groupLabelPrefix: `Team::`,
     groupLabelPostfix: `組`,
     groupList: {
       '總召': ['qiqii77'],
