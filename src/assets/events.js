@@ -1,5 +1,28 @@
 export default [
   {
+    title: "SITCON 2025 Marketing",
+    repo: "sitcon-tw/marketing/2025",
+    inboxLabel: `Status::Inbox`,
+    groupLabelPrefix: `Category::Task`,
+    groupLabelPostfix: ``,
+    groupList: {
+      '" "Ocean1029': ['Ocean1029'],
+      '" "denny0223': ['denny0223'],
+      '" "moon-jam': ['moon-jam'],
+      '" "beepee7749': ['beepee7749'],
+      '" "tong33': ['tong33'],
+      '" "agong961021': ['agong961021'],
+      '" "yyccccccccc': ['yyccccccccc'],
+      '" "chennjustin': ['chennjustin'],
+      '" "Arnoldsky': ['Arnoldsky'],
+      '" "heutemx': ['heutemx'],
+      '" "Octoberlobster': ['Octoberlobster'],
+      '" "ewenscrt': ['ewenscrt'],
+      '" "bowenchen0227': ['bowenchen0227'],
+      '" "pumpkinggggg': ['pumpkinggggg'],
+    },
+  },
+  {
     title: "SITCON 2025",
     repo: "sitcon-tw/2025/board",
     inboxLabel: `Status::Inbox`,
