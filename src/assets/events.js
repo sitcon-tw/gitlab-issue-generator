@@ -32,7 +32,7 @@ export default [
       '總召': ['qiqii77'],
       '議程': ['burnedinthesky'],
       '編輯': ['hyslchs'],
-      '製播': ['ryanbigwhale'],
+      '製播': ['hune1228'],
       '開發': ['dada878'],
       '設計': ['kayiscloudness'],
       '財務': ['lioukiki'],
