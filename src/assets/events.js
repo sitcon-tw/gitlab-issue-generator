@@ -49,7 +49,7 @@ export default [
     groupLabelPostfix: `組`,
     groupList: {
       '總召': ['qian40'],
-      '議程': [''],
+      '議程': ['hel228oise'],
       '編輯': ['tiffanylaii'],
       '製播': [''],
       '開發': ['Edit-Mr'],
