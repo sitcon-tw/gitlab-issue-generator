@@ -57,7 +57,7 @@ export default [
       '財務': [''],
       '紀錄': ['PuyUeeH'],
       '行政': ['qiqii77'],
-      '行銷': [''],
+      '行銷': ['moon-jam'],
       '場務': ['fearnot'],
     },
   },
