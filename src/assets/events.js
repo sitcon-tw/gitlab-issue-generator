@@ -54,7 +54,7 @@ export default [
       '製播': ['brian31405'],
       '開發': ['Edit-Mr'],
       '設計': ['kikiy0521'],
-      '財務': [''],
+      '財務': ['Lindyy'],
       '紀錄': ['PuyUeeH'],
       '行政': ['qiqii77'],
       '行銷': ['moon-jam'],
