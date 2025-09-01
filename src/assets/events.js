@@ -23,7 +23,7 @@ export default [
       'cnfzon': ['cnfzon'],
       'Ya': ['yuyaoooooo'],
       '康喔': ['kangjwme'],
-      '雪兒': [],
+      '雪兒': ['xinyuki1207'],
     },
   },
   {
