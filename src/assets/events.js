@@ -20,10 +20,10 @@ export default [
       '橘子': ['tiffanylaii'],
       '阿六': ['hyslchs'],
       'Nikka': ['nikkalin1008'],
-      'cnfzon': ['cnfzon'],
+      'c7': ['cnfzon'],
       'Ya': ['yuyaoooooo'],
       '康喔': ['kangjwme'],
-      '雪兒': [],
+      '雪兒': ['xinyuki1207'],
     },
   },
   {
