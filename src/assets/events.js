@@ -15,7 +15,6 @@ export default [
       '滷味': ['ainini0408'],
       'Jarek': ['Xiawoohao'],
       '海鷗': ['kyle941010'],
-      '蓋蓋': ['skyhong2002'],
       '4yü': ['huangshiyu0318'],
       '橘子': ['tiffanylaii'],
       '阿六': ['hyslchs'],
