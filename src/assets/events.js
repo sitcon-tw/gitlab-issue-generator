@@ -6,7 +6,7 @@ export default [
     groupLabelPrefix: `組別::`,
     groupLabelPostfix: `組`,
     groupList: {
-      '總召': ['fearnot'],
+      '總召': ['windlessme'],
       '設計': ['tong33'],
       '行政': ['yuyaoooooo'],
       '資訊': ['yorukot'],
