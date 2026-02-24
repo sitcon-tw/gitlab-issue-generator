@@ -55,7 +55,7 @@ export default [
       '編輯': ['tiffanylaii'],
       '製播': ['brian31405'],
       '開發': ['Edit-Mr'],
-      '設計': ['kikiy0521'],
+      '設計': ['tong33'],
       '財務': ['Lindyy'],
       '紀錄': ['PuyUeeH'],
       '行政': ['qiqii77'],
