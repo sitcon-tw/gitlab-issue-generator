@@ -11,7 +11,7 @@ export default [
       '行政': ['yuyaoooooo'],
       '開發': ['yorukot'],
       '紀錄': ['kangjwme'],
-      '庶務': ['agong1021'],
+      '庶務': ['agong961021'],
       '隊輔': ['qiqii77'],
       '課活': ['Nat1an'],
       '財務': ['Lindyy'],
