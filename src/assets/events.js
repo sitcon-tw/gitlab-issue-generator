@@ -7,10 +7,10 @@ export default [
     groupLabelPostfix: `組`,
     groupList: {
       '總召': ['windlessme'],
-      '設計': ['tong33'],
+      '設計': [''],
       '行政': ['yuyaoooooo'],
-      '資訊': ['yorukot'],
-      '紀錄': ['kangjwme'],
+      '開發': ['yorukot'],
+      '紀錄': ['k設angjwme'],
       '庶務': ['swchen1217'],
       '隊輔': ['qiqii77'],
       '課活': ['Nat1an'],
